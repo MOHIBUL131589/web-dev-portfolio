@@ -14,19 +14,43 @@
 }
 
 
+.dark-2{
+    color:#474747;
+}
+
+.btn-primary{
+    background-color: #FF6F0A;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+
 /* Nav styles */
+
+
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 
 .nav-title{
     font-weight:800;
     font-size: 45px;
 }
+nav ul{
+    display:flex;
+    
+}
 
 nav ul li{
     list-style:none;
+    margin-right: 50px;
 }
 
 nav li a{
